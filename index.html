@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="Micrproyecto1" description="Pagina web para el microproyecto1 de la asignatura sistemas de la informacion">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<title> Microproyecto1 Calcano </title>
+
+
+
+<header>
+    <nav>
+        <div class="logo">
+           <h4> Bienvenidos a mi <span> porfatolio </span></h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#"> Inicio </a>
+            </li>
+            <li>
+                <a href="#">Experiencia </a>
+            </li>
+            <li>    
+                <a href="#"> Sobre Mi </a>
+            </li>
+            <li>
+                <a href="#"> Skills </a>
+            </li>
+            <li>
+                <a href="#"> Contactame </a>
+            </li>
+         </ul>
+         <div class="atributo">
+              <div class="linea-1"></div>
+              <div class="linea-2"></div>
+              <div class="linea-3"></div>
+         </div>
+    </nav>
+</header>
+
+<body>
+        <div class="slide-contenedor">
+            <div class="miSlider fade">
+                <img src="1.png" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="2.jpeg" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="3.jpeg" alt="">
+            </div>
+            <div class="direcciones">
+                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+            <div class="barras">
+                <span class="barra active" onclick="posicionSlide(1)"></span>
+                <span class="barra" onclick="posicionSlide(2)"></span>
+                <span class="barra" onclick="posicionSlide(3)"></span>
+            </div>
+        </div>
+    <div class="service">
+        <div class="title">
+            <h2> Experiencia </h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <img src="cloud-svgrepo-com.svg" alt="Nube"/>
+                <h5>Base de Datos en Azure</h5>
+                <div class="descrip1">
+                    <p>PostgreSQL y Microsoft Azure Services.
+                         El proyecto era crear una base de datos relacional para optimizar usamos Microsoft Azure como hosting. 2022 </p>
+                    <p>
+                        <a class="button-experience" href="https://docs.google.com/document/d/1WZ0mfdF8yF1XjH9uuhn3EBuRwpLSQsnU_Tec6598a1A/edit"> Ver mas</a>
+                    </p>
+                </div>
+            </div>
+                
+            <div class="card">
+                <img src="pngwing.com.png" alt="Python"/>
+                <h5>Plataforma/App futbol</h5>
+                <div class="descrip1">
+                    <p>Python, JSON y API.
+                        Desarrolle un programa para poder ver links de partidos en vivo extrayendo la info de una API publica
+                    </p>
+                    <p>
+                        <a class="button-experience" href="https://github.com/Jose-Calcano/PlataformaFutbol"> Ver mas</a>
+                    </p>
+                </div>
+            </div>
+             
+            <div class="card">
+                <img src="clipart4406660.png" alt="Java"/>
+                <h5> Samancito-Delivery</h5>
+                <div class="descrip1">
+                    <p>Java y Estructura de Datos.
+                        El proyecto era crear una app de delivery en Java usando estructuras de datos para integrarlo a la UNIMET
+                    </p>
+                    <p>
+                        <a class="button-experience" href="https://github.com/Jose-Calcano/Proyecto-EDD"> Ver mas</a>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <section class="about">
+        <div class="main">
+            <img src="IMG_7140-removebg-preview.png">
+            <div class="about-text">
+                <h2>Jose Francisco Calcaño </h2>
+                <h5> Project Manager <span> & Developer </span> </h5>
+                <p>Mi nombre es Jose Calcaño, con 21 años de edad. Siempre apasionado por las computadoras y entusiasta con la mira hacia el futuro, soy cursante de pregrado aspirando a lograr conseguir un titulo como Ingeniero en mención de Sistemas en la Universidad Metropolitana de Caracas, algun dia me gustaria crear una empresa de desarrollo tecnologico o de creacion de software empresarial. Me gustan los gatos, me apasiona la musica y el deporte
+                </p>
+                <button type="button"> 
+                    <a class="button-experience" href="mailto:jose.calcano.dev@gmail.com?subject=Solicitud%20Informacion&body=Hola,%20vi%20tu%20Portafolio%20Web%20y%20me%20gustaria%20saber%20mas%20sobre%20ti:"> Contactame </a> 
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p> Jose Calcaño </p>
+        <p>Ahorita lo escribo xd</p>
+        <div class="social">
+            <a href="https://www.instagram.com/jose_calcano/?hl=es-la"> <img src="instagram-seeklogo.com.svg"></a>
+            <a href="https://twitter.com/SoyJoseCalcano"><img src="twitter-black-shape-svgrepo-com.svg"></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        <p class="end"> Hecho por Jose Francisco Calcaño</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+
+
+</html>
